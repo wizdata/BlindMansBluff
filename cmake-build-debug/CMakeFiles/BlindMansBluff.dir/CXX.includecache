@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Emily/dev/BlindManBluff/Card.h
+string
+-
+
+C:/Emily/dev/BlindManBluff/Deck.h
+list
+-
+Card.h
+C:/Emily/dev/BlindManBluff/Card.h
+
+C:/Emily/dev/BlindManBluff/main.cpp
+iostream
+-
+string
+-
+cctype
+-
+Card.h
+C:/Emily/dev/BlindManBluff/Card.h
+Deck.h
+C:/Emily/dev/BlindManBluff/Deck.h
+ctime
+-
+
